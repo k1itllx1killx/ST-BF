@@ -26,6 +26,21 @@ Requirements
 
 ⸻
 
+Installation
+	1.	Clone the repository:
+     git clone https://k1itllx1killx/ST-BF.git
+
+2.	Run the setup script to install dependencies and download wordlists:
+python3 setup.py
+
+
+3.	Follow the instructions in the setup:
+
+	•	Install all dependencies? (y/n)
+	•	Install rockyou wordlist or optional wordlists?
+
+⸻
+
 Usage
 	1.	Start the brute-force tool:
     python3 bruteforce.py
@@ -34,8 +49,6 @@ Usage
 	•	Ensure your wordlists are inside the wordlists/ folder.
 	•	Only use this tool on your own systems or for authorized penetration testing.
 	•	The brute-force speed can be adjusted by modifying the sleep time in the script.
-
-⸻
 
 Contributing
 
