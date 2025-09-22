@@ -28,7 +28,7 @@ Requirements
 
 Installation
 	1.	Clone the repository:
-     git clone https://k1itllx1killx/ST-BF.git
+     git clone https://github.com/k1itllx1killx/ST-BF.git
 
 2.	Run the setup script to install dependencies and download wordlists:
 python3 setup.py
@@ -44,7 +44,23 @@ python3 setup.py
 Usage
 	1.	Start the brute-force tool:
     python3 bruteforce.py
-    
+	⸻
+
+Wordlist Requirement
+
+This tool requires the rockyou wordlist to function properly.
+
+To verify you have it, run:
+
+wc -l wordlists/rockyou.txt.gz
+
+You should see around 14,344,391 passwords.
+
+Make sure the file rockyou.txt.gz is placed in the wordlists/ folder before running the tool.
+
+If the file is not present, the setup.py script can download and decompress it automatically.
+
+⸻
     Notes
 	•	Ensure your wordlists are inside the wordlists/ folder.
 	•	Only use this tool on your own systems or for authorized penetration testing.
