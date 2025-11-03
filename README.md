@@ -21,8 +21,8 @@ Requirements
 	•	lolcat for colored output
   3.	Follow the instructions in the setup:
 
-	•	Install all dependencies? (y/n)
-	•	Install rockyou wordlist or optional wordlists?
+•	Install all dependencies? (y/n)
+•	Install rockyou wordlist or optional wordlists?
 
 ⸻
 
@@ -48,7 +48,7 @@ Usage
    ```
  python3 bruteforce.py
 ```
-	⸻
+⸻
 
 Wordlist Requirement
 
