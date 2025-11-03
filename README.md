@@ -28,11 +28,13 @@ Requirements
 
 Installation
 	1.	Clone the repository:
-     git clone https://github.com/k1itllx1killx/ST-BF.git
-
+```    
+git clone https://github.com/k1itllx1killx/ST-BF.git && cd ST-BF
+```
 2.	Run the setup script to install dependencies and download wordlists:
+```
 python3 setup.py
-
+```
 
 3.	Follow the instructions in the setup:
 
@@ -43,7 +45,9 @@ python3 setup.py
 
 Usage
 	1.	Start the brute-force tool:
-    python3 bruteforce.py
+   ```
+ python3 bruteforce.py
+```
 	⸻
 
 Wordlist Requirement
